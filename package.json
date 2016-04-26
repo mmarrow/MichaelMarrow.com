@@ -7,9 +7,10 @@
     "url": "https://github.com/onehungrymind/fem-ng2-simple-app/"
   },
   "scripts": {
-    "start": "webpack-dev-server --inline --watch",
-    "test": "karma start",
-    "postinstall": "typings install"
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
   },
   "dependencies": {
     "angular2": "^2.0.0-beta.13",
