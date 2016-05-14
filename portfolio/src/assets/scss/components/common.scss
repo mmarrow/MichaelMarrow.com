@@ -9,22 +9,48 @@ section {
   margin-top: 40px;
 }
 
-section:nth-child(odd) {
+.contact-section {
   background: #EEE;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 .social-section,
-.works-section {
+.projects-section {
   img {
     margin: 0 auto;
     display: block;
   }
 }
 
-figure {
-  margin: 0;
+//Works section
+.projects-section {  
+  .row {
+    margin: 0;
+    max-width: 100%;
+  }
+  .columns {
+    padding: 0;
+  }
 }
+.project { 
+  figure {
+    margin: 0;
+    position: relative;
+  }
+  figcaption {
+    position: absolute;
+    top: 10px;
+    color: #FFF;
+    padding: 0px 15px;
+    
+    h3 {
+      font-size: 1.4em;
+      font-weight: bold;
+    }
+  }
+}
+
+
 footer {
   background-color: teal;
   padding-top: 20px;
