@@ -8,47 +8,57 @@
       </div>
       <div class="title-bar-right">
         <ul class="menu">
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">RECENT WORKS</a></li>
-          <li><a href="#">SKILLS</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
   </div>
 </nav>
 
-<section class="about-section">
+<section id="about">
   <div class="row">
-    <div class="small-12 medium-3 columns"><img src="/src/assets/js/mike.jpg"></div>
+    <div class="small-12 medium-3 columns">
+      <img src="assets/img/mike.jpg">
+      <div class="small-12 columns social-icons">
+        <div class="small-12 medium-4 columns">
+          <a href="https://www.linkedin.com/in/michael-marrow-68681912">
+            <img src="assets/img/linkedIn.png" alt="LinkedIn Logo" title="Follow me on LinkedIn">
+          </a>
+        </div>
+        <div class="small-12 medium-4 columns">
+          <a href="https://github.com/mmarrow">
+            <img src="assets/img/Octocat.png" alt="Github Logo" title="GitHub: Check out my code">
+          </a>
+        </div>
+        <div class="small-12 medium-4 columns">
+          <a href="https://dribbble.com/mike_marrow">
+            <img src="assets/img/dribbble-ball.png" alt="Dribble Logo" title="Dribbble: Some of my design">
+          </a>
+        </div>
+<!--
+        <div class="small-12 medium-3 columns">
+          <a href="https://twitter.com/mike_marrow">
+            <img src="assets/img/TwitterLogo.png" alt="Twitter Logo">
+          </a>
+        </div>     
+-->
+      </div>      
+    </div>
     <div class="small-12 medium-9 columns">
       <!-- TODO: Have "Hi" rotate through different languages saying 'Hi' or 'Hello' -->
       <h1><span>Hello </span>My name is Michael Marrow.</h1>
       <p> Feel free to call me Mike. I'm a Front-End Developer at <a href="http://www.deloittedigital.com/">Deloitte Digital</a> in Lake Mary, FL. </p>
       <p>A few nights a week I help teach at the <a href="http://www.ucfcodingbootcamp.com/">UCF Full Stack Coding Bootcamp</a></p>
       <p>Over the last 14 years I’ve been fortunate to work on a lot of cool projects with some really smart people including Eurosport, Lowe’s, Four Seasons, Royal Caribbean, American Express, JetBlue and many more. Please get in touch if you’d like to see examples of my work.</p>
-      <div class="small-12 columns">
-        <div class="small-12 medium-4 columns">
-          <a href="https://www.linkedin.com/in/michael-marrow-68681912">
-            <img class="thumbnail"  src="http://placehold.it/100x100" alt="LinkedIn Logo">
-          </a>
-        </div>
-        <div class="small-12 medium-4 columns">
-          <a href="https://dribbble.com/mike_marrow">
-            <img class="thumbnail" src="http://placehold.it/100x100" alt="Dribble Logo">
-          </a>
-        </div>
-        <div class="small-12 medium-4 columns">
-          <a href="https://twitter.com/mike_marrow">
-            <img class="thumbnail"  src="http://placehold.it/100x100" alt="Twitter Logo">
-          </a>
-        </div>
-      </div>
+      
     </div>
   </div>
 </section>
 
-<section class="projects-section">
+<section id="projects">
   <div class="row">
     <div class="small-12 columns">
       <h2 class="text-center">My Recent Works</h2>
@@ -92,7 +102,7 @@
   </div> 
 </section>
 
-<section class="skills-section">
+<section id="skills">
   <div class="row">
   <div class="small-12 columns">
     <h2 class="text-center">Technologies I work with</h2>
@@ -162,7 +172,7 @@
   </div>
 </section>
 
-<section class="contact-section">
+<section id="contact">
   <div class="row">
     <div class="large-12 columns">
       <h2 class="text-center">Let’s chat! <a href="mailto:Mike@lofty.io">Contact me.</a></h2>

@@ -9,27 +9,23 @@ section {
   margin-top: 40px;
 }
 
-.contact-section {
+#contact {
   background: #EEE;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.social-section,
-.projects-section {
-  img {
-    margin: 0 auto;
-    display: block;
-  }
-}
 
-//Works section
-.projects-section {  
+#projects {  
   .row {
     margin: 0;
     max-width: 100%;
   }
   .columns {
     padding: 0;
+  }
+  img {
+    margin: 0 auto;
+    display: block;
   }
 }
 .project { 
@@ -50,6 +46,9 @@ section {
   }
 }
 
+.social-icons {
+  margin-top: 20px;
+}
 
 footer {
   background-color: teal;
