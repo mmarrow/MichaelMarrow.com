@@ -7,6 +7,14 @@ h1 {
 
 section {
   margin-top: 40px;
+  
+  hr {
+    max-width: 15rem;
+  }
+}
+
+#about {
+  margin-bottom: 60px;
 }
 
 #contact {
@@ -49,6 +57,7 @@ section {
 .social-icons {
   margin-top: 20px;
 }
+
 
 footer {
   background-color: teal;
