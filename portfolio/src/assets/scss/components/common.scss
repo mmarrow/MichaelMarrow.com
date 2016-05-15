@@ -17,6 +17,10 @@ section {
   margin-bottom: 60px;
 }
 
+.about-pic {
+  margin-top: 1.6em;
+}
+
 #contact {
   background: #EEE;
   padding-top: 40px;
@@ -34,6 +38,9 @@ section {
   img {
     margin: 0 auto;
     display: block;
+  }
+  hr {
+    margin-bottom: 2em;
   }
 }
 .project { 
@@ -68,7 +75,8 @@ section {
 
 
 footer {
-  background-color: teal;
+  background-color: #000;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #FFF;
 }

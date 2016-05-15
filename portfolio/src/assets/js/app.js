@@ -15,3 +15,15 @@ $(function() {
     }
   });
 });
+
+// Say 'Hello' in different Languages
+$(function() {
+  var count = 0;
+  var words = ["Hello", "Bonjour", "Ciao", "Hola", "Hallo", "Aloha", "Ola", "Konnichiwa"]
+  setInterval(function () {
+    count++;
+    $(".js-hello").fadeOut(400, function () {
+      $(this).text(words[count % words.length]).fadeIn(400);
+    });
+  }, 3000);
+});
