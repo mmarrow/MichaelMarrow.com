@@ -4,8 +4,8 @@
   opacity: 0;
   position: relative;
 }
-/*animation element sliding left*/
 
+/*animation element sliding left*/
 .animation-element.slide-left {
   opacity: 0;
   -moz-transition: all 500ms linear;
@@ -29,89 +29,11 @@
 }
 
 // Bounce animation
-.animation-element.bounce {
-  -webkit-animation: bounce 1.2s ease-out;
-  -moz-animation: bounce 800ms ease-out;
-  -o-animation: bounce 800ms ease-out;
-  animation: bounce 1.2s ease-out;
+.animation-element.bounce.in-view {
+  opacity: 1;
+  animation: bounce 800ms ease-out;
 }
 
-/* Webkit, Chrome and Safari */
-
-@-webkit-keyframes bounce {
-  0% {
-    -webkit-transform:translateY(-100%);
-  }
-  5% {
-    -webkit-transform:translateY(-100%);
-  }
-  15% {
-    -webkit-transform:translateY(0);
-    padding: 4px auto;
-  }
-  20% {
-    -webkit-transform:translateY(-80%);
-  }
-  25% {
-    -webkit-transform:translateY(0%);
-    padding: 4px auto;
-  }
-  30% {
-    -webkit-transform:translateY(-70%);
-  }
-  35% {
-    -webkit-transform:translateY(0%);
-    padding: 5px auto;
-  }
-  40% {
-    -webkit-transform:translateY(-60%);
-  }
-  45% {
-    -webkit-transform:translateY(0%);
-    padding: 5px auto;
-  }
-  50% {
-    -webkit-transform:translateY(-50%);
-  }
-  55% {
-    -webkit-transform:translateY(0%);
-    padding: 6px auto;
-  }
-  60% {
-    -webkit-transform:translateY(-30%);
-  }
-  65% {
-    -webkit-transform:translateY(0%);
-    padding: 6px auto;
-  }
-  70% {
-    -webkit-transform:translateY(-15%);
-  }
-  75% {
-    -webkit-transform:translateY(0);
-    padding: 8px auto;
-  }
-  80% {
-    -webkit-transform:translateY(-10%);
-  }
-  85% {
-    -webkit-transform:translateY(0);
-    padding: 8px auto;
-  }
-  90% {
-    -webkit-transform:translateY(-5%);
-  }
-  95% {
-    -webkit-transform:translateY(0);
-    padding: 10px;
-  }
-  100% {
-    -webkit-transform:translateY(0);
-    padding: 10px;
-  }
-}
-
-/* W3, Opera 12+, Firefox 16+ */
 @keyframes bounce {
   0% {
     transform:translateY(-100%);
