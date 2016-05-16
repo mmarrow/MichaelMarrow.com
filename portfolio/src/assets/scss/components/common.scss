@@ -30,6 +30,14 @@ section {
   margin-top: 1.6em;
 }
 
+.social-icons {
+  margin-top: 20px;
+  i {
+    font-size: 2.5em;
+    text-align: center;
+  }
+}
+
 #projects {  
   .row {
     margin: 0;
@@ -74,13 +82,10 @@ section {
   }
 }
 
-.social-icons {
-  margin-top: 20px;
-  i {
-    font-size: 2.5em;
-    text-align: center;
-  }
+#contact h2 {
+  text-align: center;
 }
+
 
 footer {
   background-color: #000;
