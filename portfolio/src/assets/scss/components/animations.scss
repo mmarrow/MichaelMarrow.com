@@ -70,8 +70,17 @@
 // Bounce animation
 .animation-element.bounce.in-view {
   opacity: 1;
-  animation: bounce 800ms ease-out;
+  animation: bounce 1.7s ease-out;
 }
+
+//@keyframes bounce {
+//  0%, 100% {
+//    transform: translateY(0);
+//  }
+//  50% {
+//    transform: translateY(-5px);
+//  }
+//}
 
 @keyframes bounce {
   0% {
