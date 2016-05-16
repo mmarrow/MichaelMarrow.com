@@ -28,6 +28,45 @@
   transform: translate3d(0px, 0px, 0px);
 }
 
+// Fade up animation
+//.animation-element.fade-up {
+//  opacity: 0;
+//  -moz-transition: all 700ms ease-out;
+//  -webkit-transition: all 700ms ease-out;
+//  -o-transition: all 700ms ease-out;
+//  transition: all 700ms ease-out;
+//  -moz-transform: translate3d(0px, 200px, 0px);
+//  -webkit-transform: translate3d(0px, 200px, 0px);
+//  -o-transform: translate(0px, 200px);
+//  -ms-transform: translate(0px, 200px);
+//  transform: translate3d(0px, 200, 0px);
+//  -webkit-backface-visibility: hidden;
+//  -moz-backface-visibility: hidden;
+//  backface-visibility: hidden;
+//}
+
+//.animation-element.fade-up.in-view {
+//  opacity: 1;
+//  -moz-transform: translate3d(0px, 0px, 0px);
+//  -webkit-transform: translate3d(0px, 0px, 0px);
+//  -o-transform: translate(0px, 0px);
+//  -ms-transform: translate(0px, 0px);
+//  transform: translate3d(0px, 0px, 0px);
+//}
+
+//.project:hover,
+//.project:active {
+//  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+//}
+//
+//.project {
+//  -moz-transition: all 400ms linear;
+//  -webkit-transition: all 400ms linear;
+//  -o-transition: all 400ms linear;
+//  transition: all 400ms linear;
+//}
+
+
 // Bounce animation
 .animation-element.bounce.in-view {
   opacity: 1;
