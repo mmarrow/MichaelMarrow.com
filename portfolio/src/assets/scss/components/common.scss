@@ -11,7 +11,7 @@ h1 {
 }
 
 section {
-  margin-top: 40px;
+  padding: 40px 0;
   
   hr {
     max-width: 15rem;
@@ -23,17 +23,11 @@ section {
 }
 
 #about {
-  margin-bottom: 60px;
+  background-color: #f5f5f5;
 }
 
 .about-pic {
   margin-top: 1.6em;
-}
-
-#contact {
-  background: #EEE;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 #projects {  
@@ -72,6 +66,7 @@ section {
 }
 
 #toolbox {
+  background: #f5f5f5;
   img {
     height: 6em;
     display: block;
@@ -81,6 +76,10 @@ section {
 
 .social-icons {
   margin-top: 20px;
+  i {
+    font-size: 2.5em;
+    text-align: center;
+  }
 }
 
 footer {
