@@ -11,16 +11,16 @@ figure.hover-effect img {
 }
 
 figure.hover-effect:hover img {
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 figure.hover-effect figcaption::before,
 figure.hover-effect figcaption::after {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 20px;
+  right: 20px;
   bottom: 30px;
-  left: 30px;
+  left: 20px;
   content: '';
   opacity: 0;
   transition: opacity 0.35s, transform 0.35s;

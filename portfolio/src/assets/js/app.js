@@ -28,7 +28,6 @@ $(function() {
   }, 3000);
 });
 
-
 // detect viewport for scroll based animations
 $(function() {
   var $animation_elements = $('.animation-element');

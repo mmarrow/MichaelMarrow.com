@@ -6,7 +6,7 @@
 h1 {
   span {
     display: block;
-    font-size: 5rem;
+    font-size: 2em;
   }
 }
 
@@ -18,8 +18,17 @@ section {
   }
 }
 
-.title-bar-right .menu a {
+.menu > li > a {
+  line-height: normal;
+}
+
+.title-bar-right .menu a,
+.title-bar-left .menu a {
   color: #FFF;
+}
+
+.title-bar-left .menu > li > a {
+  padding: 0;
 }
 
 #about {
@@ -57,6 +66,7 @@ section {
 }
 .project { 
   text-align: center;
+  margin-top: 10px;
   
   figure {
     margin: 0;
@@ -66,8 +76,6 @@ section {
     position: absolute;
     top: 5px;
     color: #FFF;
-    padding: 15px;
-    
     h3 {
       font-size: 1.4em;
       font-weight: bold;
@@ -88,10 +96,50 @@ section {
   text-align: center;
 }
 
+.project-page {
+  max-width: 75%;
+  margin: 0 auto;
+  h2 {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+  }
+  em {
+    font-size: .8em;
+  }
+}
 
+.case-study {
+  margin-top: 40px;
+}
 footer {
   background-color: #000;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #FFF;
 }
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .title-bar {
+    height: 90px !important;
+  }
+  .animation-element {
+    opacity: 1;
+  }
+  .about-pic {
+    margin-top: 0;
+  }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
