@@ -74,7 +74,7 @@ section {
   }
   figcaption {
     position: absolute;
-    top: 5px;
+    top: .6em;
     color: #FFF;
     h3 {
       font-size: 1.4em;
@@ -104,7 +104,7 @@ section {
     font-weight: bold;
     text-align: center;
   }
-  aside p {
+  .attn-text {
     font-size: .8em;
     line-height: 1.2;
     font-style: italic;
@@ -127,6 +127,7 @@ section {
 
 .project-nav {
   text-align: center;
+  margin-bottom: 40px;
 }
 footer {
   background-color: #000;
@@ -146,6 +147,15 @@ footer {
   .about-pic {
     margin-top: 0;
   }
+  .project-page img {
+    display: none; 
+  }
+  .project-page h2 {
+    font-size: 2em;
+  }
+//  .project-page .title-bar-right {
+//    display: none;
+//  }
 }
 
 /* Medium and up */
